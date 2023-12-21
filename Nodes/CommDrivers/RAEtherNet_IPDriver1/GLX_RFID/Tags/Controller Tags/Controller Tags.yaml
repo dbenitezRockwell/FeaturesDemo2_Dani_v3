@@ -1,0 +1,15 @@
+Name: Controller Tags
+Id: g=490cd035ba9032897fb48ef227000a68
+Type: FolderType
+Children:
+- Name: Photo_On_OP
+  Id: g=e39eda27ff0ffee3a3d8667f3fe7a787
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Id: g=0e93831ff44023b000cd47950157f4f2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Photo_On_OP"

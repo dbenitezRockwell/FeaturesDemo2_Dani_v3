@@ -1,0 +1,5 @@
+Name: RAEtherNet_IPDriver1
+Id: g=54bdcf2b1431056becf551d27246bc88
+Type: RAEtherNetIPDriver
+Children:
+- File: GLX_RFID/GLX_RFID.yaml

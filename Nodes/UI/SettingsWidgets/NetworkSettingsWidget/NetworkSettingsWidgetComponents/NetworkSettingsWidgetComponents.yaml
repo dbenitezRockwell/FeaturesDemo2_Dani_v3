@@ -1,0 +1,872 @@
+Name: NetworkSettingsWidgetComponents
+Id: g=4e2a57327594c9a588d318297442936a
+Type: FolderType
+Children:
+- Name: LAN
+  Id: g=2085abe369833af0b78e93b6ca2bb596
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=ac7dea26e3bc6dd650570ba4b6324056
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=bbc3d054ccba2dfcd18cf28b3e6dc9c1
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 244.0
+  - Name: DHCPClientEnabledCheckbox
+    Id: g=6077a2937f41acf7943324e9c63fad21
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=b58a2e8c47133d8045613b747d490324
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Text
+      Id: g=7d6ab9e5271bedd8840dea8b93a76a1a
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DHCPClientEnabled"}
+    - Name: LeftMargin
+      Id: g=6738c05e83c2b534cb583864eae3c688
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=4fab05a7b4029f1fefbd946cad506a65
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+  - Name: IPAddressLabel
+    Id: g=1d3fa70b976d476f918acc73f7b1ae02
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=95e43a3fd5ea0c0651ee1f977ac0b9ec
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"IPAddress"}
+    - Name: LeftMargin
+      Id: g=0f271affa5d590d0c9133f13033d209a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=7067a996d8757c7983213494876e51c6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 46.0
+    - Name: FontFamily
+      Id: g=c9701239fdc44811896291034c26b778
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=67c9de5524bdcc4a03e0867197747f6c
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=3a155518e3fe11e405b1bffe91813d6d
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: IPAddressTextBox
+    Id: g=90bf0dd8529b7d75430384e8a30c5127
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=22f2574fbc69a9be1a596fb96c016608
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=ec4ca7a5119016f5ed73d52d10891060
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=cbee0454fe75d05c97a10ab0cdaae2a6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=a29b3e39db579d806935a81ed4d155d6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 65.0
+  - Name: MaskLabel
+    Id: g=59933ba3ae8fffe7035f7ea15038f196
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=27e7221f7ed8f72c1dc25e86059659b2
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"Mask"}
+    - Name: LeftMargin
+      Id: g=1066279e7c39909b8a3d94b793fc781d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=90b704d292e60f32940178e02e337308
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 46.0
+    - Name: FontFamily
+      Id: g=2f6f30d763f5bfdec1194a3cd407804a
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=cf657bb30c13639fa12dc829096b2522
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=f84d6cb42991749af587ea76c6a2d5cf
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: MaskTextBox
+    Id: g=6deefd794aaec1394cc57f708e6d1190
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=81446cc4fe8383ed26d6ca116c1eefcf
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=1bc2a5f558073cb7ed3ad4571a484920
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=fde2ef1dbbb5de8786588ee19f5ab42b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 145.0
+    - Name: TopMargin
+      Id: g=ad4806bd01977e6c941931bfcf0813da
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 65.0
+  - Name: DefaultGatewayLayout
+    Id: g=be6d6181a50fc9da7601236cdafa66d2
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=54fac2d24f116e46cd804b978f07f7ac
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: Height
+      Id: g=c2ae9daf2b60990d5eaad17b3b128018
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Id: g=14d4885eb2bc9279d75484cb24030ae2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 266.0
+    - Name: TopMargin
+      Id: g=45681a84fad931b38ae7ca545776cc41
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: DefaultGatewayLabel
+      Id: g=ebad592744d41e3f3e7e0be7aa5842c9
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=b4a7440b785f0c206d16cd97f225255f
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":40,"TextId":"DefaultGateway"}
+      - Name: FontFamily
+        Id: g=fe48159339a3383810ed3183528b4005
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+        Value: ""
+      - Name: TextHorizontalAlignment
+        Id: g=25ce0b5ccd4318c04283215c269b733c
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: HorizontalAlignment
+        Id: g=0996c8f180d1445df07013a3400262f4
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: WordWrap
+        Id: g=4600a9f25ec05da4ec29647b04823c4a
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: VerticalAlignment
+        Id: g=1e210e41690b539133bb25cd508da607
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: BottomMargin
+        Id: g=ba1cfed603b745448d95bcb5bea2e781
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 4.0
+    - Name: DefaultGatewayTextBox
+      Id: g=9c485db037b775f455b303c43648a66d
+      Type: TextBox
+      Children:
+      - Name: Text
+        Id: g=61fcbc52ee4e7b7150146f4e21fd342c
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":""}
+      - Name: HorizontalAlignment
+        Id: g=dc2492b5ec91e326ddd755cb8d62a936
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: ContentAlignment
+      Id: g=290a4fda5717377705dafb123a58ba8f
+      Type: BaseVariableType
+      DataType: ContentVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+  - Name: DNS1Label
+    Id: g=31fb9b29f01d1bc6538ef878196e8646
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=1a439ecfd6a5f8c7960523e28429a3e8
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DNS1"}
+    - Name: LeftMargin
+      Id: g=2190152859692256112c1def10123918
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=eba248adfe9cd244d2a4bb3a1f0ef307
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 96.0
+    - Name: FontFamily
+      Id: g=ecd1d504cc93be883b94b1325824caec
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=bd4adb60c7a7f01016ea9e6f6c3cb0af
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=7def0442a58d3b82600e47afdcf95b42
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: DNS1TextBox
+    Id: g=f2f4e6e5e69195f385f08c390400ddc0
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=3f4f79150c1b8a96090e48da85c74882
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=5120f36e81be90d5602a242672d62d1a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=f0b677782c50211fa4d285f2f7f3bdd8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=05ce1d28b812d3d8989ac05adcbf3440
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.0
+  - Name: DNS2Label
+    Id: g=493b8f48882550aa6934f3b4b377f479
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=dcba798256254289d5f26d8f3d545d61
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DNS2"}
+    - Name: LeftMargin
+      Id: g=f0abd0e8188923cb25e29051b7794bf0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=ea87095f5fce5d601364ad84a397c8d9
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 96.0
+    - Name: FontFamily
+      Id: g=8928065335ea18a559dec7d1cb526d26
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=fe96e5310f56c123ce05f2798e5ce121
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=3f5cea9b9d35b41af04822beb2ffc0cb
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: DNS2TextBox
+    Id: g=1b511532e298b9def9c4c414f4a12c83
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=9c830e9dc48a2295faa1492188bc6917
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=4bcf8830ebb8c0acfcbd858ed3402a75
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=5cd623386edb52aecb657360149890ad
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=e90434a528b2661d335ee675e84b886a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.0
+  - Name: HorizontalAlignment
+    Id: g=8e13435092ced162a48497c498229ec6
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=9b61b6c03900e13292df9d20c266b79f
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+- Name: WAN
+  Id: g=a7ce62ae472193e226b2a7de265d168f
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=b75b73bf9c021ab32d0180f6ccfcd497
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Id: g=4971a0891c50286d13d562f369347720
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 244.0
+  - Name: DHCPClientEnabledCheckbox
+    Id: g=ba6eea64be61343725c1ef253f58d9b5
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=736ee9f0396b76f8f63b9b867eeb5bba
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Text
+      Id: g=958685d11a9564082748dbee4f7137b6
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DHCPClientEnabled"}
+    - Name: LeftMargin
+      Id: g=f51f59f72ac41394d498f9a60784f7a5
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=b001a49445cff3bf0c14780bb412f599
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0
+  - Name: IPAddressLabel
+    Id: g=f7bfc778fd728ebc53aee2110f766025
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=f3ebd1d87625b32ada4bd0351348e922
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"IPAddress"}
+    - Name: LeftMargin
+      Id: g=71fac4e1ef8151189d9cce5b730f2c1f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=45092c9c31026ad48154bd4ec116e0ff
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 46.0
+    - Name: FontFamily
+      Id: g=5c52b8d215d0435390b1ba48b24be712
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=c2038548de2c93a69fbbd85c2fddd659
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=c4b63a65521c2434255174a52eeb12ff
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: IPAddressTextBox
+    Id: g=2fd2700e516d1ebf2c43ebaa4d39cf8f
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=8182d161f4ad0efbfbea1f7e69f32a5f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=89027fd37f1483fabd23c6b626174b2f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=dec51d1af55b8436e92089018b77a9cc
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=8265466cb9d583e7d42e0bc50adb3c1d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 65.0
+    - Name: Enabled
+      Id: g=2373a236f0420904dd66500c7e0a6f11
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: MaskLabel
+    Id: g=475b5b9dbc29ddc7e7506021d5d108d8
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=4292c1b6ff6eac200bcb8e26203767ac
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"Mask"}
+    - Name: LeftMargin
+      Id: g=272b0ba5d45979ce30e98d4b79746555
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=93081f2c01e5110efd75c41cf80747be
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 46.0
+    - Name: FontFamily
+      Id: g=4e38737ef989996312bc56ea8c58560c
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=b6ce18fda857a33c0343963593877b7b
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=fe62b73a99b890a89110ab3c047db8b3
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: MaskTextBox
+    Id: g=26bdedabb9ff780351c26901bd65afb5
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=a0efd61c8dc0b50680196e700360b852
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=e98548a1a765da3113ec71d40ad4eec4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=e0aefe809deb5b27e8ebdf278cca3039
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 145.0
+    - Name: TopMargin
+      Id: g=9e7d71f27ad8a8c2952aaf7d215717ad
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 65.0
+    - Name: Enabled
+      Id: g=544f99d10f03bd8624768a36fe5755e2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: DefaultGatewayLayout
+    Id: g=fb2e2720b261a6a35d11ea94b44311e9
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Id: g=b6aeae2b2201d1e3aae7450a202c6f98
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: Height
+      Id: g=1e9a2d3c5c6ab4fec67f2ca7b378d8fd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Id: g=33e61c34dbeb6e700e4d33be3ea2d325
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 266.0
+    - Name: TopMargin
+      Id: g=dfa65c42023d34427421cbaf39a43b5f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: ContentAlignment
+      Id: g=ffb1868622a0f8bb5470a795973ab85e
+      Type: BaseVariableType
+      DataType: ContentVerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: DefaultGatewayLabel
+      Id: g=763e202c518415d1abd36f1942c8e556
+      Type: Label
+      Children:
+      - Name: Text
+        Id: g=6db80a1341bb483fcb953e38e81d5e78
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"NamespaceIndex":40,"TextId":"DefaultGateway"}
+      - Name: FontFamily
+        Id: g=89ad834dda50880f4c7f9d9c35e0ad89
+        Type: BaseDataVariableType
+        DataType: Font
+        ModellingRule: Optional
+        Value: ""
+      - Name: TextHorizontalAlignment
+        Id: g=9dd8c6c9b6885b188523d4a775ee7aee
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 0
+      - Name: HorizontalAlignment
+        Id: g=d9d15b71150fb65098a582d025ac01dd
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Id: g=59286a5dc6287b6a65e46960a1a9681d
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: WordWrap
+        Id: g=1c38649ec532bd29d823780b5fa98f1c
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+    - Name: DefaultGatewayTextBox
+      Id: g=38d6140fe14fda9b9fc11bb9c3c98f8f
+      Type: TextBox
+      Children:
+      - Name: Text
+        Id: g=6e5fe2a127433f3bc5f6d89f22ab2f95
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":""}
+      - Name: Enabled
+        Id: g=b1d3d15a505b65a97b3a9f92ab7c6b15
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: TopMargin
+        Id: g=e8c8f98f2854cc7f25770e9f7a01a6ff
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 4.0
+      - Name: HorizontalAlignment
+        Id: g=071928774305f22b15d49ee77ea352ab
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+  - Name: DNS1Label
+    Id: g=f53df1b7f06fe929a72ba63a3008e96a
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=b78636ef4659140de55ddbad7eb322bf
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DNS1"}
+    - Name: LeftMargin
+      Id: g=7327ebe714702eb010912401c54222e2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=4514fa2757b2b7bfb8a98ba6b739a4cc
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 96.0
+    - Name: FontFamily
+      Id: g=f4a40a97d21ae3dc1e2ef9548c22c21f
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=acac33110356c6cba2dd54f0de06c002
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=adeee8d6d83aa9909e0ba6aea9fc361b
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: DNS1TextBox
+    Id: g=3a52bd937e772d9a64bc2e16c90c334a
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=5c613eb8e26d4ff0b0419f703aa9e246
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=74100df411c3a071b7178f921be375f3
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=b1526ebbe51cb23a57f642ce004a2ce0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: TopMargin
+      Id: g=cd8ae0fdd161c66f2c42b3ae9f19cb02
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.0
+    - Name: Enabled
+      Id: g=3c01cc7b2332c75b9e7aea3138093c88
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: DNS2Label
+    Id: g=ff9c799ea0158b774b74745a5b136dfb
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=4623cd7ce4ff8d4d91a9537867af75af
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"NamespaceIndex":40,"TextId":"DNS2"}
+    - Name: LeftMargin
+      Id: g=5684ffc07f6bb9fc03f9bbcedef621a6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=4cd07f4de61d09a96da82f4a4828b74f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 96.0
+    - Name: FontFamily
+      Id: g=ae14686e380b6c6cf19f10846b85619c
+      Type: BaseDataVariableType
+      DataType: Font
+      ModellingRule: Optional
+      Value: ""
+    - Name: TextHorizontalAlignment
+      Id: g=9705b0a40d2d140a6182e9bfa61188d7
+      Type: BaseVariableType
+      DataType: TextHorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=2d5726a74b93a1681bfcd98db6004d3b
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+  - Name: DNS2TextBox
+    Id: g=c33c28ef41db65802cb3b808699a2385
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=f8769d4a69292ed43221db2a3a5e6c74
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":""}
+    - Name: Width
+      Id: g=9dca0105aabf4614f00fda1fd6346c73
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=9fa2c04a3fc91514ae5f85663ecd0b33
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: TopMargin
+      Id: g=09caaa21435d3273fdd9e3b42ff635ba
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 114.0
+    - Name: Enabled
+      Id: g=c1acbc801472ffc805f0a95a252c1886
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+  - Name: HorizontalAlignment
+    Id: g=5273b0fe65be7af299a21d7ecef438be
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: VerticalAlignment
+    Id: g=bfb8cb9621d78039d4f3d5cb8c59a3d4
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
