@@ -191,8 +191,8 @@ Children:
       "Name": "Value0",
       "Value": 0,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Numerical, without thousands separator"
+       "NamespaceIndex": 40,
+       "TextId": "NumericalNoSeparator"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -202,8 +202,8 @@ Children:
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Numerical, with thousands separator"
+       "NamespaceIndex": 40,
+       "TextId": "NumericalThousandsSeparator"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -213,8 +213,8 @@ Children:
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Exponential notation"
+       "NamespaceIndex": 40,
+       "TextId": "ExponentialNotation"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -224,19 +224,19 @@ Children:
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Fixed-point notation"
+       "NamespaceIndex": 40,
+       "TextId": "FixedPointNotation"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "f"
+       "Text": "f2"
       }
      },{
       "Name": "Value4",
       "Value": 4,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Percentage"
+       "NamespaceIndex": 40,
+       "TextId": "Percentage"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -252,7 +252,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"NamespaceIndex":40,"TextId":"NumericalNoSeparator"},"Description":{"LocaleId":"en-US","Text":"d"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"NamespaceIndex":40,"TextId":"NumericalThousandsSeparator"},"Description":{"LocaleId":"en-US","Text":"n"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"NamespaceIndex":40,"TextId":"ExponentialNotation"},"Description":{"LocaleId":"en-US","Text":"e"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"NamespaceIndex":40,"TextId":"FixedPointNotation"},"Description":{"LocaleId":"en-US","Text":"f"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"NamespaceIndex":40,"TextId":"Percentage"},"Description":{"LocaleId":"en-US","Text":"p"}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"NamespaceIndex":40,"TextId":"NumericalNoSeparator"},"Description":{"LocaleId":"en-US","Text":"d"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"NamespaceIndex":40,"TextId":"NumericalThousandsSeparator"},"Description":{"LocaleId":"en-US","Text":"n"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"NamespaceIndex":40,"TextId":"ExponentialNotation"},"Description":{"LocaleId":"en-US","Text":"e"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"NamespaceIndex":40,"TextId":"FixedPointNotation"},"Description":{"LocaleId":"en-US","Text":"f2"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"NamespaceIndex":40,"TextId":"Percentage"},"Description":{"LocaleId":"en-US","Text":"p"}}}]
 - Class: DataType
   Name: BinaryFormatEnum
   Id: g=97e2eb036b97ad3c155ad99519dd7dbb
