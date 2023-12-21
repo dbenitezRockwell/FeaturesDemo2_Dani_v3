@@ -8794,7 +8794,7 @@ Children:
                 Id: g=38320c1786609f7489d757741da40642
                 Type: BaseDataVariableType
                 DataType: Color
-                Value: "#cb8252"
+                Value: "#6acb52"
             - Name: Tape
               Id: g=43fd329252f3cb608827a5a1ba936aef
               Type: AdvancedSVGImageElementProperty

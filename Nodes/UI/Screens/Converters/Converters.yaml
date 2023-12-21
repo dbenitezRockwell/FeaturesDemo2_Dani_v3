@@ -878,7 +878,7 @@ Children:
               Id: g=ab7c8308f0299344a173be2d3f6ab6c9
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Max ( )"}
+              Value: {"LocaleId":"en-US","Text":"Max (V0, V1, V2, V3, V4)"}
             - Name: Result
               Id: g=1f740e02eeb8f520d92626d6eb7ba3a0
               Type: Label
@@ -1067,7 +1067,7 @@ Children:
               Id: g=953883a3aa2924a250b64f84c013ef71
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Min ( )"}
+              Value: {"LocaleId":"en-US","Text":"Min (V0, V1, V2, V3, V4)"}
             - Name: Result
               Id: g=0c380d8df6d25237b9951c862f6b807b
               Type: Label
@@ -1256,7 +1256,7 @@ Children:
               Id: g=d820a1b6bfa9bb97c2b2cf696f08110e
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Avg ( )"}
+              Value: {"LocaleId":"en-US","Text":"Avg (V0, V1, V2, V3, V4)"}
             - Name: Result
               Id: g=a68a4ddd2fe53ed48e89d1b9243dad71
               Type: Label
@@ -1445,7 +1445,7 @@ Children:
               Id: g=3140613d40922aa916432dc069ef9601
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Abs ( )"}
+              Value: {"LocaleId":"en-US","Text":"Abs (V0)"}
             - Name: Result
               Id: g=7fde2b99ba59e842fb2f895c8a938a0c
               Type: Label
@@ -1541,7 +1541,7 @@ Children:
           - Name: Sgn
             Id: g=4931a31613f919472b6d88c61a07c7b3
             Type: BaseCard
-            Description: {"NamespaceIndex":40,"TextId":"ExpressionEvaluatorDescription"}
+            Description: {"LocaleId":"en-US","Text":"Checks if the given floating point number is negative. Returns 0 if true or 1 if false."}
             Children:
             - Name: Title
               Id: g=960ef4a65e0e0978f1fc98dc8341e782
@@ -1590,7 +1590,7 @@ Children:
               Id: g=06dc2b4abb48513d8bd1b9abb32f72da
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Sign ( )"}
+              Value: {"LocaleId":"en-US","Text":"Sign (V0)"}
             - Name: Result
               Id: g=d4b7a40bb937b4b89e77800ff956bb9a
               Type: Label
@@ -1781,7 +1781,7 @@ Children:
               Id: g=17026ab4783b0d1589370f70637b3e99
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Floor ( )"}
+              Value: {"LocaleId":"en-US","Text":"Floor (V1)"}
             - Name: Result
               Id: g=d1869a55d7e86009860fc943614ac9d3
               Type: Label
@@ -1920,7 +1920,7 @@ Children:
               Id: g=15c1dc3da7fe2a0391618906a88a225a
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Ceil ( )"}
+              Value: {"LocaleId":"en-US","Text":"Ceil (V1)"}
             - Name: Result
               Id: g=4007be87f5a7e74df42927c51da1a70e
               Type: Label
@@ -2059,7 +2059,7 @@ Children:
               Id: g=897a8ed38e6007ef8d1defd82fdbfe8e
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Round ( )"}
+              Value: {"LocaleId":"en-US","Text":"Round (V1)"}
             - Name: Result
               Id: g=0734be5c4cf4c41fdbdf7128d2671b5f
               Type: Label
@@ -2198,7 +2198,7 @@ Children:
               Id: g=f9d5678d67e51d296492e1b9558a6e71
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Sqrt ( )"}
+              Value: {"LocaleId":"en-US","Text":"Sqrt (V1)"}
             - Name: Result
               Id: g=1d4fb184a9236ba4a3bbe86561d46907
               Type: Label
@@ -2337,7 +2337,7 @@ Children:
               Id: g=f12da645f5e421ea520a1b9449419601
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Trunc ( )"}
+              Value: {"LocaleId":"en-US","Text":"Trunc (V1)"}
             - Name: Result
               Id: g=e766e5ff0027f4e71a8c75edea27fbb2
               Type: Label
@@ -2346,30 +2346,7 @@ Children:
                 Id: g=da7168c585be1c4fec76085f25f66e1b
                 Type: BaseDataVariableType
                 DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: ExpressionEvaluator1
-                  Id: g=1d73e6eec0349e985b78cbcb08e124fe
-                  Type: ns=5;ExpressionEvaluator
-                  Children:
-                  - Name: Expression
-                    Id: g=7783e97bf5bd929b65d21c5319657f16
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: "floor({0})"
-                  - Name: ns=5;Source0
-                    Id: g=90d2241f6ec742210bdec01eff657e72
-                    Type: BaseDataVariableType
-                    DataType: BaseDataType
-                    ReferenceType: HasSource
-                    Children:
-                    - Name: DynamicLink
-                      Id: g=287644f1f0d382f2a6e7d9d04f25e72d
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../../../../VariableDefinitions/Variable1Value/Value"
+                Value: {"LocaleId":"en-US","Text":"../../../../../../../../../VariableDefinitions/Variable1Value/Value"}
               - Name: FontSize
                 Id: g=85e2379602bb9ff37e3e6ffb665cc088
                 Type: BaseDataVariableType
@@ -2393,19 +2370,31 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 64.0
+                Value: -324.0
               - Name: BottomMargin
                 Id: g=d8e0ee635aa882a484f843e9484b55ab
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 16.0
+                Value: 0.0
               - Name: TextVerticalAlignment
                 Id: g=6b58fede08a69a6f8a0710121b9d4be4
                 Type: BaseVariableType
                 DataType: TextVerticalAlignment
                 ModellingRule: Optional
                 Value: 1
+              - Name: LeftMargin
+                Id: g=ded3ae1d50dad25e73c9652188af789a
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 10.0
+              - Name: RightMargin
+                Id: g=39c9c54354dcef3946e606171cbf2415
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
             - Name: TopMargin
               Id: g=d40cdb75c1478c504dfe517953c0d88d
               Type: BaseVariableType
@@ -2430,6 +2419,63 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 8.0
+            - Name: Result1
+              Id: g=283e3f73bb9f4bc484f44aba08f71fd2
+              Type: Label
+              Children:
+              - Name: Text
+                Id: g=5cc1c9c3d45b124d65e64e4f7a1e2ad3
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"../../../../../../../../../VariableDefinitions/Variable1Value/Value"}
+              - Name: FontSize
+                Id: g=30c7d1289a8bd3bf69a472884d96e6fd
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 20.0
+              - Name: HorizontalAlignment
+                Id: g=4f5d497efd18273cb62a9a10551fd758
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: VerticalAlignment
+                Id: g=11416686de7b41a30acdb74aca41e370
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: TopMargin
+                Id: g=a011178543458e108753cd87e5681740
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -172.0
+              - Name: BottomMargin
+                Id: g=dbd302a61aa1159548fbd6a34c8fd3eb
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TextVerticalAlignment
+                Id: g=1b0f96bf9690cfc192d141c542ad1439
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: LeftMargin
+                Id: g=60a4a337c21d884e1b04c8d0906f1465
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -10.0
+              - Name: RightMargin
+                Id: g=497f6f2b8428afd4363928ff1424dbe0
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
           - Name: BottomMargin
             Id: g=ee4008c471320f248bf0d2ef8965ad97
             Type: BaseVariableType
