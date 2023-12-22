@@ -7957,6 +7957,11 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 48.0
+          - Name: Visible
+            Id: g=89d841f15a3d325369dd2d2f14b8837d
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
         - Name: LeftMargin
           Id: g=49f7b6ac2880d7d2d71f463339ce70a8
           Type: BaseVariableType
@@ -8074,6 +8079,22 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 256.0
+          - Name: Visible
+            Id: g=2c47898470bf372ed41e9b0bcb0303ed
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Id: g=1341693ce441e23c883c5def53ce1560
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Condition1/Enable/Checked"
+        - Name: Visible
+          Id: g=fc530bb5a07bf2c9dafd5bb07a7a5bac
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
       - Name: Col2
         Id: g=a64d2ae694f4e60236feb3d3df6d578d
         Type: ColumnLayout
@@ -8279,6 +8300,45 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 16.0
+          - Name: Visible
+            Id: g=d1fa6cbe8af8f4cc95b5e9419837aedb
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ExpressionEvaluator1
+              Id: g=78ba49585319e25d6f92465e39756477
+              Type: ns=5;ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Id: g=fc0b516a6958b24793628c3a53f16f22
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}&&{1}>50"
+              - Name: ns=5;Source0
+                Id: g=1b769a96247be5c59d8dcac7cd80b2b1
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Id: g=3770cc9b5b24e299a8f4b8c4f753ad98
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Col1/Condition2/Visible"
+              - Name: ns=5;Source1
+                Id: g=979bcea20061daf8e3ce5636e5ff3573
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Id: g=be94f691c546f684899a604c51c05927
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../Col1/Condition2/ValueSelector/Value"
         - Name: TopMargin
           Id: g=91d82ffdde4d08a05b2e39550a2204bd
           Type: BaseVariableType
@@ -8496,6 +8556,45 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 88.0
+          - Name: Visible
+            Id: g=805ec1ecb4c8a80182ae12d8867bf64f
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ExpressionEvaluator1
+              Id: g=52c31cf1267e3fd518b65d010cfe95d6
+              Type: ns=5;ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Id: g=0e36e29913427ce810bfcb023112df8f
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}&&{1}"
+              - Name: ns=5;Source0
+                Id: g=3bd8103a1ea40a254ce4dc0a2269440c
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Id: g=59498eeab07b1f737602e8cef332e972
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Condition3/Visible"
+              - Name: ns=5;Source1
+                Id: g=77a013cd34b6ae247aef110f77d8148c
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Id: g=82d2aa5dce171c033ebf808c0ed8e9fd
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Condition3/Options/OptionButton3/Checked"
       - Name: Col3
         Id: g=bda281a20bec782da5260ea8101c5b6f
         Type: ColumnLayout
