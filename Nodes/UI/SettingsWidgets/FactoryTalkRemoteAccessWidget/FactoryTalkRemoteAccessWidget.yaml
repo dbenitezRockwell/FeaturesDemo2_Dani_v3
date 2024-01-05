@@ -103,7 +103,7 @@ Children:
                     Id: g=17c8bf964bc3106d272b3cfae4cf3016
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{NodeId:ns=40;g=23926e68-2a80-ff34-7ded-d281b9457dcc}"
+                    Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
             - Name: TrueValue
               Id: g=57d998687cf3a3aed612a6b8af847bfb
               Type: BaseDataVariableType
@@ -122,17 +122,18 @@ Children:
           Id: g=03f7027732924632b3a8f4722bb28192
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"23926e682a80ff347dedd281b9457dcc","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/ConnectionPanel"
           Children:
           - Name: Kind
             Id: g=2fe37f399bf0eabe63f2aaaa0665c996
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":7}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: AliasNode
           Id: g=66d512e8ca74b004c9b9e1be3f4f1478
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -153,17 +154,18 @@ Children:
           Id: g=0c9f7bf6e9de273b8b0f51b47c942eef
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"a9d94c2a22b3dfe07a36f73fc4d9f1f3","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistancePanel"
           Children:
           - Name: Kind
             Id: g=35a87e0cc5860cad8c1542d375375b62
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":7}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: AliasNode
           Id: g=e8213e1300fcddcb229d207d0b6252cf
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -182,7 +184,7 @@ Children:
         Id: g=7011d9d79859c2867a3815ae99cc6627
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":7}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Name: HorizontalAlignment
       Id: g=18fd153a44075562c75880e00a954bdc
       Type: BaseVariableType
@@ -240,7 +242,7 @@ Children:
         Id: g=33613e16cbfc452437713adb6b81605b
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":62,"Namespace":17}
+        Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
       - Name: DynamicLink
         Id: g=18c4916e42e5b037ba347a33ce68c047
         Type: DynamicLink
@@ -266,7 +268,7 @@ Children:
       Id: g=100cb0cb9aa87000ff5640d88ac7598b
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":62,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
   - Name: FTRemoteAccessWidgetSetupLogic
     Id: g=40b7428852925c84b6acb565662e2db1
     Type: NetLogic

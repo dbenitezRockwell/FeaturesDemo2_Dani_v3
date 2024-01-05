@@ -45,13 +45,13 @@ Children:
     Id: g=664994ffe6c05c1976e6527048e24dd6
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"253d14c8681620db7c856f8352e586a3","Namespace":40}
+    Value: "/Objects/FeaturesDemo2_Dani_v3/DataStores/EmbeddedDatabase/Tables/DataLogger"
     Children:
     - Name: Kind
       Id: g=ae468dd0e7b958331a3df7d5f03da992
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":3,"Namespace":13}
+      Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Name: Query
     Id: g=adaecbe0b434be7fdb2af09bb44e0821
     Type: BaseDataVariableType

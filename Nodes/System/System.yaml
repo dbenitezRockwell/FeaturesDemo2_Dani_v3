@@ -24,31 +24,26 @@ Children:
       Id: g=a2929cdf850e86c638c4ebc32ae56493
       Type: BaseDataVariableType
       DataType: TimeSynchronizationModeEnum
-      ReferenceType: HasProperty
       Value: 0
     - Name: RemoteNTPServer
       Id: g=047a792d208cd32846c02f9a750b2d5d
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       Value: ""
     - Name: DateTime
       Id: g=c99add59a6907887a67e8f1506147259
       Type: BaseDataVariableType
       DataType: DateTime
-      ReferenceType: HasProperty
       Value: "1601-01-01T00:00:00.0000000"
     - Name: TimeZone
       Id: g=ff4ef81e56489a397281fff042691615
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       Value: ""
     - Name: LocalNTPServerInterfaces
       Id: g=bf33debe24f7139ab07f4039ffece99f
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       ValueRank: OneDimension
       ArrayDimensions: [0]
       Value: []
@@ -60,180 +55,154 @@ Children:
       Id: g=0d297ab1b8c18f07e51195c40ed20a5b
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: CPUFrequency
       Id: g=6993e43a8197ff9d8d7bfa92f8a4c06d
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: CPUTemperature
       Id: g=c253ce2a7d994e244e4c59c35f93ad58
       Type: BaseDataVariableType
       DataType: Int32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: CPUUtilization
       Id: g=1823b939726f2233109aeb9c26ae467d
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: EthernetNetworkCount
       Id: g=be51812dfbd36941adea7385216c8876
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: EthernetPortCount
       Id: g=c6b4dcd8510b444e609aba8176c21f8b
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: FirmwareDate
       Id: g=4a93a8873aabae5afdc92e09adb2a34d
       Type: BaseDataVariableType
       DataType: DateTime
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: "1601-01-01T00:00:00.0000000"
     - Name: FirmwareVersion
       Id: g=e5d1090edf03d33de0f081857b71febe
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: HardwareProductCode
       Id: g=931916efb61944e3ca478105b87d0d48
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: HardwareProductType
       Id: g=00dcd57bda45ba1168af8146e67524f6
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: HardwareVersion
       Id: g=08c1776bcb0ee6f12e0cb16dee83bff5
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: HardwareSeries
       Id: g=0b09d51d4b8dfad858ec2ac99a574a3d
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: Hostname
       Id: g=871ff59ee889f76b4d5f539a9228583c
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       Value: ""
     - Name: LastApplicationUpdateTime
       Id: g=14813b6457931caea9b67f6c5fa0b867
       Type: BaseDataVariableType
       DataType: DateTime
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: "1601-01-01T00:00:00.0000000"
     - Name: LastBootupTime
       Id: g=e649e53559ccc8afa5769f6818dfa9d6
       Type: BaseDataVariableType
       DataType: DateTime
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: "1601-01-01T00:00:00.0000000"
     - Name: OSVersion
       Id: g=7e02bbf24efe70468c3d029d4536c478
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: ProductName
       Id: g=b4eff894c90e0f8285693cda6d818b8e
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: ProtectionModeEnabled
       Id: g=c62450616ec5233773f8eee69f0c7e0f
       Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       Value: false
     - Name: SystemManagerVersion
       Id: g=3a812140a450e669a02595384a9e7d97
       Type: BaseDataVariableType
       DataType: String
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: ""
     - Name: TotalOnTime
       Id: g=04a9163634d55278d88f18dedc6417a9
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: FreeMemory
       Id: g=ff9d0e20c3c8e0f14b793cb90f1b6caa
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: TotalMemory
       Id: g=c13fcf127f33e796ab1fa4efa8efbef3
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: UsedMemory
       Id: g=d926656d31b734391b7ef6883667e2be
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: FreeStorage
       Id: g=81ba22e29904aa1f4e405995f104f810
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: TotalStorage
       Id: g=279fb784dc7e705e2241ac18b0cb3d01
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: UsedStorage
       Id: g=1bd71e3c3afbee172e08b8693b1e5fb9
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
   - Name: Display
@@ -244,33 +213,28 @@ Children:
       Id: g=bd5b1b7d7746c8c6260cceffd2df33af
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       Value: 10
     - Name: HorizontalResolution
       Id: g=b591707a222b445596be7e264c806181
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: VerticalResolution
       Id: g=262dc683eac11d82599133d683cb9d0d
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: 0
     - Name: Scale
       Id: g=9b67bc030588e100ac7fe370e5b449ea
       Type: BaseDataVariableType
       DataType: UInt32
-      ReferenceType: HasProperty
       Value: 100
     - Name: Orientation
       Id: g=e8e0b61e8e2c32120acdaf1c65d0f03c
       Type: BaseDataVariableType
       DataType: DisplayOrientationEnum
-      ReferenceType: HasProperty
       Value: 0
   - Name: Application
     Id: g=0a3235932aac9db05faa8ab22d39e49f
@@ -280,21 +244,18 @@ Children:
       Id: g=b74cd677b43a9d606717a322b912fb2d
       Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: false
     - Name: MediumBlink
       Id: g=b5adca043b093a39abd455629c161900
       Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: false
     - Name: SlowBlink
       Id: g=a5287fa63e78104da93abc52fcee7f7b
       Type: BaseDataVariableType
       DataType: Boolean
-      ReferenceType: HasProperty
       AccessLevel: Read
       Value: false
   - Name: RebootRequired
@@ -382,7 +343,7 @@ Children:
       Id: g=21e2084543deb941e8399922d21697be
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":17}
+      Value: "/Types/EventTypes/BaseEventType/RemoteConnectionRequestEvent"
     - Name: MethodsToCall
       Id: g=69dfd0d53570e23a33e1eebb670e8aeb
       Type: BaseObjectType
@@ -395,7 +356,7 @@ Children:
           Id: g=a47bc4569e7755a20673a24da71e54c3
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":5}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Id: g=6d8842ecef58b6a2ad0324c54056c12c
@@ -447,7 +408,7 @@ Children:
           Id: g=c840068a4e0dca4824d20fbb23c904e0
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":5}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Id: g=7481702cc2d0b072961238dec0e6dd82
@@ -499,7 +460,7 @@ Children:
           Id: g=bba51a5cfd73da53fb9932d1f8533f7e
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":5}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Id: g=49167ef5d2710d6147cf9dbb236efe00
@@ -551,7 +512,7 @@ Children:
           Id: g=d2209806db42ee186779681abe2cd547
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":5}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Id: g=1523a4225d88409b967a3631b5d3a0e5

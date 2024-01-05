@@ -683,13 +683,13 @@ Children:
     Id: g=97f2ac041c7128722a111d9ecb6e3069
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"c8a7ac8967fb82add730aa764151209d","Namespace":40}
+    Value: "/Objects/FeaturesDemo2_Dani_v3/Translations/LocalizationDictionary"
     Children:
     - Name: Kind
       Id: g=2a584bd92a9db0b6504499c7a267a415
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":42,"Namespace":1}
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
   - Class: Method
     Name: ExportTranslations
     Id: g=56720e95038db94976b0c3deb107d4e5

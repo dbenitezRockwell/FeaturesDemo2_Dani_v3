@@ -73,7 +73,7 @@ Children:
       Id: g=51ba9ba3a044264fd46c0ed2c7c07e20
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"3e8c8082a2418fafb151a5266d3eb6ea","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/Model/ObjectOrientedProgramming/CustomMotor"
   - Name: HorizontalAlignment
     Id: g=067118efb173f8f8eb7af5ae8f7ce81f
     Type: BaseVariableType

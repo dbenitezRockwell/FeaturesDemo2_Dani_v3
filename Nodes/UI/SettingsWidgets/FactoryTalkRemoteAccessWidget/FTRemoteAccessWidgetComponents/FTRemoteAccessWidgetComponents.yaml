@@ -36,7 +36,7 @@ Children:
       Id: g=2d1c9f8c1ae6f2476decf56303d41350
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":62,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/FTRemoteAccess"
 - Name: ConnectionPanel
   Id: g=23926e682a80ff347dedd281b9457dcc
   Supertype: Panel
@@ -64,7 +64,7 @@ Children:
       Id: g=cda9b617d36f44a0aace62025c8c8685
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
     Id: g=61fc4d07e4fbe36c03374f079494c2a7
     Type: BaseVariableType
@@ -559,7 +559,7 @@ Children:
           Id: g=c154b72781fd1536d8b6f9bde16c46fb
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":690,"Namespace":7}
+          Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
         - Name: MethodsToCall
           Id: g=cdd971896955eb718ba1e37391eef4c3
           Type: BaseObjectType
@@ -578,7 +578,7 @@ Children:
                 Id: g=39c44c6d55d5695e5c7263dae26e36d9
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Id: g=084dc56a2120ad9805b002910c656d4e
                 Type: DynamicLink
@@ -806,7 +806,7 @@ Children:
           Id: g=7909f70e30521ca1ffcb04a857a356ad
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":71,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: ConditionalConverter1
           Id: g=ace81311fdd1816addcac133d46f2763
           Type: ns=5;ConditionalConverter
@@ -878,7 +878,7 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             ReferenceType: HasParameter
-            Value: {"IdType":2,"Id":"7c627096d12708ed0287a55484570373","Namespace":40}
+            Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
           - Name: FalseValue
             Id: g=1d737ae5cbfb77a9e9c7e738323afcff
             Type: BaseDataVariableType
@@ -964,7 +964,7 @@ Children:
                     Type: BaseDataVariableType
                     DataType: NodeId
                     ReferenceType: HasParameter
-                    Value: {"IdType":2,"Id":"3b5c89f9e643ad660f7d493a6267db20","Namespace":40}
+                    Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/NewConnectionCredentialsPanel"
                   - Name: FalseValue
                     Id: g=e28d386fe1e475a39b6ad13b5f1fec14
                     Type: BaseDataVariableType
@@ -1010,19 +1010,19 @@ Children:
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
-                        Value: {"IdType":2,"Id":"1589b9c4408ee105871ba17b4b69ab1d","Namespace":40}
+                        Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/AcceptDenyIncomingRequestPanel"
                       - Name: FalseValue
                         Id: g=bc3db422d139c2fa6f491cbea3250cf7
                         Type: BaseDataVariableType
                         DataType: NodeId
                         ReferenceType: HasParameter
-                        Value: {"IdType":2,"Id":"7c627096d12708ed0287a55484570373","Namespace":40}
+                        Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
               - Name: FalseValue
                 Id: g=bdf73198923f00564bfc361b27da31fd
                 Type: BaseDataVariableType
                 DataType: NodeId
                 ReferenceType: HasParameter
-                Value: {"IdType":2,"Id":"7c627096d12708ed0287a55484570373","Namespace":40}
+                Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/EmptyPanel"
       - Name: CurrentPanel
         Id: g=8403992fa0bd450342127751aebdf23e
         Type: NodePointer
@@ -1034,7 +1034,7 @@ Children:
           Id: g=704373c3334573449a56cb0351d45c3e
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":6,"Namespace":7}
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
       - Class: Reference
         Target: ns=7;i=478
         Direction: Forward
@@ -1060,6 +1060,7 @@ Children:
         Id: g=774fd8a0a966eda0c33cfd5d3e1575bc
         Type: BaseDataVariableType
         DataType: NodeId
+        ValueRank: ScalarOrOneDimension
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: DynamicLink
@@ -1160,7 +1161,7 @@ Children:
       Id: g=bcf9cfa103ab19834c4eba0d75232435
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: IncomingConnectionApprovalLogic
     Id: g=f9c49a10870b5bf347505f217e8f561c
     Type: NetLogic
@@ -1378,7 +1379,7 @@ Children:
             Id: g=2696ce8676dc5b16f5beece24b061ac8
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=7fa68e9bbf7f40034ffe3df31b039055
             Type: BaseObjectType
@@ -1397,7 +1398,7 @@ Children:
                   Id: g=dfcf1388fdc25a862f40d9174cd4b417
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Id: g=7b9fe4fd3d0e431ee97dc38806473d3f
                   Type: DynamicLink
@@ -1513,7 +1514,7 @@ Children:
             Id: g=433bf199bb2420f2490ead9f6b69992d
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":16,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
           - Name: MethodsToCall
             Id: g=71cd06d6b70ee94a6681c94d55138e94
             Type: BaseObjectType
@@ -1532,7 +1533,7 @@ Children:
                   Id: g=3baa587068f8be0128775169479c96c4
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Id: g=9cb0dfe41192ffab64296762e0f40ada
                   Type: DynamicLink
@@ -1657,7 +1658,7 @@ Children:
       Id: g=b1b07d262fea1c838660c1d30b97d60b
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout2
     Id: g=4f11af0fa1ef69297518a65b6012feb6
     Type: ColumnLayout
@@ -2071,7 +2072,7 @@ Children:
         Id: g=3507d59be9a1fd4887b1942600fbac93
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":71,"Namespace":7}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: ConditionalConverter1
         Id: g=e008cf0b0b14fd59b3c02c9f67743550
         Type: ns=5;ConditionalConverter
@@ -2110,13 +2111,13 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
-          Value: {"IdType":2,"Id":"cd5d0865300cd405731b73c22593c145","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceEnabledPanel"
         - Name: FalseValue
           Id: g=8bab0e7882b6f30d56ca68447fa2de08
           Type: BaseDataVariableType
           DataType: NodeId
           ReferenceType: HasParameter
-          Value: {"IdType":2,"Id":"ebbd1f3af61b8ac28dc0c7b7ca061fed","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/RequestAssistanceDisabledPanel"
     - Name: CurrentPanel
       Id: g=20c74047a23881a2dce5371a7605a2e0
       Type: NodePointer
@@ -2128,7 +2129,7 @@ Children:
         Id: g=898f1bcf4fcea8032aafa8b31cd5a76f
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":6,"Namespace":7}
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
     - Class: Reference
       Target: ns=7;i=478
       Direction: Forward
@@ -2148,6 +2149,7 @@ Children:
       Id: g=064243c559d56591d8e9286008ef3064
       Type: BaseDataVariableType
       DataType: NodeId
+      ValueRank: ScalarOrOneDimension
       Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: DynamicLink
@@ -2177,7 +2179,7 @@ Children:
       Id: g=15508cbad25e48eba1de8f516f647016
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: HorizontalAlignment
     Id: g=c02389fd9bd15ebee313f011de86f483
     Type: BaseVariableType
@@ -2217,7 +2219,7 @@ Children:
       Id: g=90a2fc921953a2e3eb7460f3bf237753
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
   - Name: VerticalLayout1
     Id: g=46923580f5cf318d2417dde10e030346
     Type: ColumnLayout
@@ -2739,7 +2741,7 @@ Children:
             Id: g=8f856da0517564571c2e6a89921fe034
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":690,"Namespace":7}
+            Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
           - Name: MethodsToCall
             Id: g=67f533152c75d83c73211ad3a809061a
             Type: BaseObjectType
@@ -2758,7 +2760,7 @@ Children:
                   Id: g=9e2b7f59bb909f8e3d76bc667e10f8b8
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":58}
+                  Value: "/Types/ObjectTypes/BaseObjectType"
                 - Name: DynamicLink
                   Id: g=902a598dddba65c85cc4b55d1508240b
                   Type: DynamicLink
@@ -3170,7 +3172,7 @@ Children:
       Id: g=fc4099a9123206273bee308d8eeaaeb4
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"c30f820e1e3a4884f4b1be580e704b2d","Namespace":40}
+      Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/FactoryTalkRemoteAccessWidget/FTRemoteAccessWidgetComponents/FTRemoteAccessWidgetDataObject"
 - Name: EmptyPanel
   Id: g=7c627096d12708ed0287a55484570373
   Supertype: Panel

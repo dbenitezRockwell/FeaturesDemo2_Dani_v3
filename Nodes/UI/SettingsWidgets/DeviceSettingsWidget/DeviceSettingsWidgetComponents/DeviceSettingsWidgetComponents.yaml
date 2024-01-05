@@ -350,7 +350,7 @@ Children:
       Id: g=1f8a933f76d665fb92d6afb3561c6d58
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: BottomBar
     Id: g=aac7a9380d3b9b97f4ef6748cf95cdc1
     Type: Panel
@@ -408,7 +408,7 @@ Children:
           Id: g=3db579ea1ab43985e9ef6784e64da8ff
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":16,"Namespace":7}
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
         - Name: MethodsToCall
           Id: g=8561eb52c8079daf680992c1f7a7ac9c
           Type: BaseObjectType
@@ -427,7 +427,7 @@ Children:
                 Id: g=b309875b1cbb5fdea51942a84fe67146
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":58}
+                Value: "/Types/ObjectTypes/BaseObjectType"
               - Name: DynamicLink
                 Id: g=d2dbb97bdd39386f13b358eb3dc66b07
                 Type: DynamicLink
@@ -1120,7 +1120,7 @@ Children:
       Id: g=713631c498ee3b9788d9a9a7afcb257f
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: HorizontalAlignment
     Id: g=fc11568481e803e3e046b6f80f527b35
     Type: BaseVariableType
@@ -1934,7 +1934,7 @@ Children:
       Id: g=7f6a171923ab11f4f5fefc16002d08c3
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: HorizontalAlignment
     Id: g=76288945e3b2c366ff523dc16b2a0267
     Type: BaseVariableType

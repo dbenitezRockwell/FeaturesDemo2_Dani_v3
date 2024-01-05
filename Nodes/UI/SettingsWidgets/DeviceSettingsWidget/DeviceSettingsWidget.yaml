@@ -52,7 +52,7 @@ Children:
           Id: g=f13b1ff3d90b0d3ff441d7ded833037c
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"a8030be8ed2ec8799d253aab53926eb6","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Configuration"
           Children:
           - Name: Kind
             Id: g=cb11b297e3c9eea31321cb0f6ff2bdb6
@@ -63,6 +63,7 @@ Children:
           Id: g=7240fe3a9bc43d3a3ae0beee290e3185
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -83,7 +84,7 @@ Children:
           Id: g=d91e594c7fe4a384567d4c4af7066d90
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"be2896bc95ce0670a1b4bad26955d792","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Product_Information"
           Children:
           - Name: Kind
             Id: g=c9e587f36e98e5c02fd756562aef5488
@@ -94,6 +95,7 @@ Children:
           Id: g=6e2bc49a3a37a7f9bd4e958782faf537
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -114,7 +116,7 @@ Children:
           Id: g=ee6cf6c3ad52ad176644d920f5c43a7f
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":2,"Id":"8afec59e104f611eecf71f513017b0d3","Namespace":40}
+          Value: "/Objects/FeaturesDemo2_Dani_v3/UI/SettingsWidgets/DeviceSettingsWidget/DeviceSettingsWidgetComponents/Diagnostics"
           Children:
           - Name: Kind
             Id: g=5149bfc035585691d0b86cab490da8f4
@@ -125,6 +127,7 @@ Children:
           Id: g=e3007630ecc0113a8b33403a64329458
           Type: BaseDataVariableType
           DataType: NodeId
+          ValueRank: ScalarOrOneDimension
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
@@ -201,7 +204,7 @@ Children:
       Id: g=edeaa8a11c63616c04cf2cdec039624b
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":1,"Namespace":17}
+      Value: "/Types/ObjectTypes/BaseObjectType/System"
   - Name: DeviceSettingsWidgetLogic
     Id: g=64f18112797474e2cb62ed872de88151
     Type: NetLogic
