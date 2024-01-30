@@ -7460,7 +7460,7 @@ Children:
                           Id: g=db0096da91649895c0c92e2b87ef6b47
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "../../../../../../RGB/Red/RedGauge/Red"
+                          Value: "../../../../../../RGB/Red/RedGauge/Value"
                       - Name: ns=5;Source1
                         Id: g=2320cea62fea1c1541d72442380473d3
                         Type: BaseDataVariableType
