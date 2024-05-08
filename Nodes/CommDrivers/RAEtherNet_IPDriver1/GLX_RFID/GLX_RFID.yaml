@@ -6,7 +6,7 @@ Children:
   Id: g=4ff821d1039e0f4fbb89736c45a4542a
   Type: BaseDataVariableType
   DataType: String
-  Value: "172.17.28.10"
+  Value: "172.17.8.12"
 - Name: StationStatusVariables
   Id: g=efb614b82e7d27e398d60a47c877a79c
   Type: PropertyGroup

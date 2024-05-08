@@ -1258,8 +1258,48 @@ Children:
       Id: g=afba4290ea4d4be01a689eafbe816598
       Type: BaseVariableType
       DataType: Size
-      ModellingRule: Optional
       Value: 52.0
+      Children:
+      - Name: ConditionalConverter1
+        Id: g=88d3f54d7bf79dd159cdfbf2de784827
+        Type: ns=5;ConditionalConverter
+        Children:
+        - Name: Condition
+          Id: g=0e922f48d1fa48eb749d73bc3f4b88a0
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ReferenceType: HasSource
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Id: g=17f00bca098b69261fb03b000f255a91
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../click_menu"
+        - Name: TrueValue
+          Id: g=29c20dd3c5001a76ea6255c92a572692
+          Type: BaseDataVariableType
+          DataType: Int16
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: 52
+        - Name: FalseValue
+          Id: g=e07b182a8e275601ce8e30e930517b6b
+          Type: BaseDataVariableType
+          DataType: Int16
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: -320
+      - Name: Value change animation
+        Id: g=ab40bc64f035e4e55e00f10c6a7673d8
+        Type: BehaviourAnimation
+        Children:
+        - Name: Duration
+          Id: g=9ed990d1f98f45379ebdeba79dd561e6
+          Type: BaseDataVariableType
+          DataType: Int32
+          ModellingRule: Optional
+          Value: 256
     - Name: Background
       Id: g=6bb3e031f627268f54c9d9d0de11afce
       Type: Rectangle
