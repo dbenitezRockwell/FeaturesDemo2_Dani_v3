@@ -1,5 +1,4 @@
 Name: Translations
-Id: g=7861c975234efa25020d3510ab40c558
 Type: TranslationsCategoryFolder
 Children:
 - Name: LocalizationDictionary
@@ -11,7 +10,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [639,4],
+    "Dimensions": [641,4],
     "Body": [
      "","en-US","it-IT","zh-CN",
      "Acknowledge","Ack","Riconosci","确认",
@@ -651,48 +650,40 @@ Children:
      "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?","","",
      "RegisterToDomainDeviceID","Device ID:","","",
      "Helo","Hello","Ciao","直升机",
-     "Testing","Testing","Testing","Testing"
+     "Testing","Testing","Testing","Testing",
+     "xxxxxxx_xxxx","xxxxxxx_xxxx1","xxxxxxx_xxxx2","",
+     "nuevo_texto","Nuevo_En","Nuevo_IT",""
     ]
    }
 - Name: ImportAndExportTranslations
-  Id: g=677e49d0ad585fb148c1d8a60f89704e
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: BehaviourStartPriority
-    Id: g=d2096ba6984eb9e0d5eab15c864d60ff
     Type: BehaviourStartPriorityVariableType
     DataType: Byte
     Value: 180
   - Name: CSVPath
-    Id: g=583334b7aa1cfa1afcea1ba50be8a3e0
     Type: BaseDataVariableType
     DataType: ResourceUri
     Value: "ns=40;%PROJECTDIR%/Foglio di lavoro senza nome - Translations_20230801.csv"
   - Name: CharacterSeparator
-    Id: g=92478b74d0d8431ec3994b78ba966db8
     Type: BaseDataVariableType
     DataType: String
     Value: ","
   - Name: WrapFields
-    Id: g=12ce200771edbcd77a30aa4a230b9215
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: LocalizationDictionary
-    Id: g=97f2ac041c7128722a111d9ecb6e3069
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/FeaturesDemo2_Dani_v3/Translations/LocalizationDictionary"
     Children:
     - Name: Kind
-      Id: g=2a584bd92a9db0b6504499c7a267a415
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
   - Class: Method
     Name: ExportTranslations
-    Id: g=56720e95038db94976b0c3deb107d4e5
   - Class: Method
     Name: ImportTranslations
-    Id: g=08ee6b6d8186effe8fc0f31c267538dc
