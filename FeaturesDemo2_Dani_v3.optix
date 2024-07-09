@@ -6,7 +6,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.3
+ ProductVersion: 1.4
  CoreVersion: 3.0
  Dependencies:
   2:
@@ -24,7 +24,7 @@ Project:
   5:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.1
+   Version: 4.0
   6:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
@@ -32,11 +32,11 @@ Project:
   7:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 11.0
+   Version: 12.4
   8:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
-   Version: 11.0
+   Version: 12.4
   9:
    Uri: 'urn:FTOptix:DataLogger'
    Module: FTOptix.DataLogger
@@ -88,7 +88,7 @@ Project:
   21:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 5.3
+   Version: 6.1
   22:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
@@ -104,11 +104,11 @@ Project:
   25:
    Uri: 'urn:FTOptix:Alarm'
    Module: FTOptix.Alarm
-   Version: 2.0
+   Version: 4.0
   26:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
-   Version: 1.0
+   Version: 1.2
   27:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
@@ -128,11 +128,11 @@ Project:
   31:
    Uri: 'urn:FTOptix:CommunicationDriver'
    Module: FTOptix.CommunicationDriver
-   Version: 2.0
+   Version: 2.1
   32:
    Uri: 'urn:FTOptix:CommunicationDriver:Net'
    Module: FTOptix.CommunicationDriver.Net
-   Version: 2.0
+   Version: 2.1
   33:
    Uri: 'urn:FTOptix:SerialPort'
    Module: FTOptix.SerialPort
@@ -144,7 +144,7 @@ Project:
   35:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
-   Version: 1.0
+   Version: 3.0
   36:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
@@ -156,21 +156,21 @@ Project:
   38:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
-   Version: 2.1
+   Version: 3.0
   39:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
    Version: 2.1
  Statistics:
-  TotalNodeCount: 30470
-  Objects: 6748
+  TotalNodeCount: 30570
+  Objects: 6752
   ObjectTypes: 118
-  Variables: 23544
+  Variables: 23640
   VariableTypes: 0
   DataTypes: 6
   Methods: 54
-  References: 277
+  References: 307
   ReferenceTypes: 0
-  Files: 79
+  Files: 80
  Nodes:
  - File: Nodes/FeaturesDemo2_Dani_v3.yaml
