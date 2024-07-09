@@ -405,6 +405,9 @@ Children:
         DataType: FillModeEnum
         ModellingRule: Optional
         Value: 1
+      - Class: Reference
+        Target: ns=7;i=1360
+        Direction: Forward
     - Name: HeaderContent
       Type: RowLayout
       Children:
@@ -721,6 +724,9 @@ Children:
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
+        - Class: Reference
+          Target: ns=7;i=1360
+          Direction: Forward
       - Name: Switch1
         Type: Switch
         Children:
@@ -1227,6 +1233,9 @@ Children:
               DataType: VerticalAlignment
               ModellingRule: Optional
               Value: 2
+            - Class: Reference
+              Target: ns=7;i=1360
+              Direction: Forward
           - Name: FeaturesDemoHome
             Type: Label
             Children:
