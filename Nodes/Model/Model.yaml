@@ -266,8 +266,8 @@ Children:
       "Name": "Value0",
       "Value": 0,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Hexadecimal notation"
+       "NamespaceIndex": 40,
+       "TextId": "HexadecimalNotation"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -277,8 +277,8 @@ Children:
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Binary notation"
+       "NamespaceIndex": 40,
+       "TextId": "BinaryNotation"
       },
       "Description": {
        "LocaleId": "en-US",
@@ -288,8 +288,8 @@ Children:
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "Octal notation"
+       "NamespaceIndex": 40,
+       "TextId": "OctalNotation"
       },
       "Description": {
        "LocaleId": "en-US",
