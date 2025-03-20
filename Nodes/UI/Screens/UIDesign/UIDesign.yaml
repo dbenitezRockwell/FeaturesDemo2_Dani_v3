@@ -6864,6 +6864,9 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "None"
+          - Class: Reference
+            Target: ns=7;i=1360
+            Direction: Forward
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment

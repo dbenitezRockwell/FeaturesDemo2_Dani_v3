@@ -3461,6 +3461,7 @@ Children:
                   ModellingRule: Optional
                   Value: 16.0
                 - Name: RollerDistance
+                  Id: g=8159041bb0216c2436709c068757e869
                   Type: AnalogItemType
                   DataType: Float
                   Value: 30.0
